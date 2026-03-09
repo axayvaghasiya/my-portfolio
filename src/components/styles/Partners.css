@@ -13,7 +13,6 @@
   font-weight: 500;
   margin: 0 0 60px 0;
   text-transform: uppercase;
-  visibility: hidden;
 }
 
 .partners-title span {
@@ -36,7 +35,6 @@
   background: rgba(255, 255, 255, 0.03);
   transition: border-color 0.3s ease, background 0.3s ease,
     box-shadow 0.3s ease;
-  visibility: hidden;
 }
 
 .partner-card:hover {

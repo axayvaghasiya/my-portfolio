@@ -24,43 +24,39 @@ const Partners = () => {
 
   useEffect(() => {
     const section = sectionRef.current;
-    if (!section) return;
+    if (!section || window.innerWidth < 900) return;
+
+    const cards = gridRef.current?.querySelectorAll(".partner-card") ?? [];
+
+    // Set initial hidden state via GSAP (not CSS) so mobile is unaffected
+    gsap.set(titleRef.current, { autoAlpha: 0, y: 60 });
+    gsap.set(cards, { autoAlpha: 0, y: 80 });
 
     const ctx = gsap.context(() => {
-      // Title animation
-      gsap.fromTo(
-        titleRef.current,
-        { autoAlpha: 0, y: 60 },
-        {
-          autoAlpha: 1,
-          y: 0,
-          duration: 0.8,
-          ease: "power3.out",
-          scrollTrigger: {
-            trigger: section,
-            start: "top 70%",
-            toggleActions: "play pause resume reverse",
-          },
-        }
-      );
+      gsap.to(titleRef.current, {
+        autoAlpha: 1,
+        y: 0,
+        duration: 0.8,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: section,
+          start: "top 70%",
+          toggleActions: "play pause resume reverse",
+        },
+      });
 
-      // Cards stagger animation
-      gsap.fromTo(
-        gridRef.current?.querySelectorAll(".partner-card") ?? [],
-        { autoAlpha: 0, y: 80 },
-        {
-          autoAlpha: 1,
-          y: 0,
-          duration: 0.7,
-          ease: "power3.out",
-          stagger: 0.1,
-          scrollTrigger: {
-            trigger: section,
-            start: "top 60%",
-            toggleActions: "play pause resume reverse",
-          },
-        }
-      );
+      gsap.to(cards, {
+        autoAlpha: 1,
+        y: 0,
+        duration: 0.7,
+        ease: "power3.out",
+        stagger: 0.1,
+        scrollTrigger: {
+          trigger: section,
+          start: "top 60%",
+          toggleActions: "play pause resume reverse",
+        },
+      });
     }, section);
 
     return () => ctx.revert();

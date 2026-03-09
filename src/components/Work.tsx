@@ -5,34 +5,40 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Makani Germany",
+    category: "Shopify Plus",
+    tools: "Shopify CLI, JavaScript, Node.js, Liquid, Remix, React, Lovable, Storefront API",
+    image: "/images/Makani.avif",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "Bahe Shoes",
+    category: "Shopify",
+    tools: "Shopify CLI, JavaScript, Python, Node.js, Liquid, Klaviyo, GenAI",
+    image: "/images/Bahe.avif",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "ONWARD",
+    category: "Shopify Plus",
+    tools: "Liquid, JavaScript, HTML5, CSS3, Git, Jira, Figma, Klaviyo",
+    image: "/images/onward.avif",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
+    title: "TanandLoom",
+    category: "Shopify",
+    tools: "HTML5, CSS3, JavaScript, Liquid, Shopify CLI",
+    image: "/images/tanandloom.avif",
   },
   {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "Feel Food",
+    category: "Shopify",
+    tools: "Liquid, JavaScript, HTML5, CSS3, Shopify CLI, Git, GitHub",
+    image: "/images/feelfood.avif",
+  },
+  {
+    title: "FOCL",
+    category: "Shopify Plus",
+    tools: "Liquid, JavaScript, HTML5, CSS3, Git, Jira",
+    image: "/images/focl.avif",
   },
 ];
 
@@ -109,7 +115,7 @@ const Work = () => {
                           {project.category}
                         </p>
                         <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
+                          <span className="tools-label">Language, Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
                       </div>

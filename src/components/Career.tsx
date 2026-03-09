@@ -15,43 +15,43 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Shopify Developer</h4>
+                <h5>Cirkle Studio Pvt Ltd</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2018</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Designed and deployed mobile-first, 
+              high-availability web architectures, 
+              consistently achieving 95+ Google PageSpeed scores 
+              through advanced CSS inlining 
+              and asset minification.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Shopify Developer</h4>
+                <h5>Muonix (Muonix Technolabs)</h5>
               </div>
               <h3>2021</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Managed complex third-party API integrations 
+              and middleware solutions, ensuring seamless interoperability 
+              between client-facing web applications and legacy backend systems.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Senior Shopify Engineer (Solutions Architect)</h4>
+                <h5>The Bonsai Grop</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Led the technical deployment of 20+ enterprise-scale web applications for international clients, ensuring seamless integration with existing data ecosystems.
             </p>
           </div>
         </div>

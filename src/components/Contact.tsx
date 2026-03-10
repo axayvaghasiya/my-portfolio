@@ -51,14 +51,6 @@ const Contact = () => {
             >
               Instagram <MdArrowOutward />
             </a>
-            <a
-              href="https://www.shopify.com/partners/directory/partner/nipunyax"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Shopify Select Partner <MdArrowOutward />
-            </a>
           </div>
           <div className="contact-box">
             <h2>

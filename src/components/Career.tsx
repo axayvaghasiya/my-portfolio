@@ -34,7 +34,7 @@ const Career = () => {
                 <h4>Shopify Developer</h4>
                 <h5>Muonix (Muonix Technolabs)</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2019</h3>
             </div>
             <p>
               Managed complex third-party API integrations 

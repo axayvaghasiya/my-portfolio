@@ -81,3 +81,13 @@
     font-size: 18px;
   }
 }
+
+.navbar-logo-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 0.75rem;
+}
+
+.shopify-partner-logo img {
+  max-height: 48px;
+}
